@@ -2,8 +2,8 @@ package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
 
-    Node last;
-    int i;
+    private Node last;
+    private int i;
     private final int EMPTY_RHYMER_INDICATOR = -1;
 
     public void push(int i) {
