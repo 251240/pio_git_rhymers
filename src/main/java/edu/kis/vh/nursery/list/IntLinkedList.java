@@ -1,5 +1,7 @@
 package edu.kis.vh.nursery.list;
 
+
+// TODO: klasa nie ma użyć
 public class IntLinkedList {
 
     private Node last;
@@ -20,6 +22,7 @@ public class IntLinkedList {
         return last == null;
     }
 
+    // TODO: metoda isFull() zwraca tylko false
     public boolean isFull() {
         return false;
     }

@@ -28,6 +28,7 @@ public class DefaultCountingOutRhymer {
         return total == FULL_RHYMER_INDICATOR;
     }
 
+    // TODO: metoda ma niezrozumiałą nazwę, potrzebuje zmiany nazwy
     protected int peekaboo() {
         if (callCheck())
             return DEFAULT;
